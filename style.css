@@ -1,0 +1,38 @@
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+body{
+    background-image: url(home.jpg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+nav{
+    height: 115px;
+}
+nav a {
+    font-size: 25px;
+    padding: 15px;
+}
+.home-button{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #6d9bf6;
+}
+ 
+  
+.quote{
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 5px 3px 3px rgb(25, 91, 48);
+
+}
