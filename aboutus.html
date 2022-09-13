@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="aboutus.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/459f06329c.js" crossorigin="anonymous"></script>
+    <title>About Us</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="logo.PNG" alt="Logo" width="220" height="220">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light " style="position:fixed; width:100%;">
+        <img src="photos/logo.PNG" alt="Logo" width="220" height="220">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
       <ul class="navbar-nav ">
-        <li class="nav-item active">
+        <li class="nav-item ">
           <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="aboutus.html">About us </a>
+        <li class="nav-item about-us-nav active">
+          <a class="nav-link about-us-nav" href="aboutus.html">About us </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="team.html">Meet the team</a>
@@ -35,23 +36,69 @@
     <h2 class="header">We’re here to help you sell your house, no matter what</h2>
     <h3 class="header2"> We works with you to sell your house stress-free. Whether that’s a in week or a few months.</h3>
     <div class="container">
-        <img src="offer.png" alt="Logo"  class="images">
-        <img src="transaction.png" alt="Logo" class="images">
-        <img src="closing.png" alt="Logo" class="images">
+        <img src="photos/offer.png" alt="Logo"  class="images">
+        <img src="photos/transaction.png" alt="Logo" class="images">
+        <img src="photos/closing.png" alt="Logo" class="images">
     </div>
     <div class="steps">
-    <h3>OFFER</h3>
+    <h3 class="heading">OFFER</h3>
     <p>Our Transaction Coordinator will come to the set appointment and will quickly 
         evaluate the condition of the home and will present you with a CASH OFFER at the end of the 
         appointment. No worries, we are following COVID-19 guidelines!</p>
-    <h3>TRANSACTION</h3>
+    <h3 class="heading">TRANSACTION</h3>
     <p>Choose YOUR TIME OF CLOSING. Hassle and stress free process will allow you to close in as fast as 7-days. 
         Your reputable Closing Agent will guide you through the process and make sure your transaction is smooth
          and transparent.</p>
-    <h3>CLOSING</h3>
+    <h3 class="heading">CLOSING</h3>
     <p>GET PAID IN CASH in as fast as 7 days. No commissions, closing fees, repairs, open houses or mortgage
         contingencies, EVER! Our Transaction Coordinator will make sure all details of the transaction are 
         well taken care of and you’re happy!</p>
     </div>
+    <div class="container1 ">
+      <h3 class="header">We buy houses in Memphis & surrounding areas</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d417675.5317974765!2d-90.2509808278286!3d35.12942523586143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d57e1eea439745%3A0xd193f315601ab6fe!2sMemphis%2C%20TN!5e0!3m2!1sen!2sus!4v1661487152681!5m2!1sen!2sus" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
 </body>
+<footer class="text-center text-white" style="background-color: #f1f1f1;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+  <div class="container">
+    <a href="privacy.html" class="m-1 ">Privacy Policy</a>
+    <a href="terms.html" class="m-1 ">Terms of use</a>
+  </div>
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <a href="contact.html">Contact Us!</a>
+  </div>
+</footer>
 </html>

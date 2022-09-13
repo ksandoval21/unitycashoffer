@@ -1,0 +1,50 @@
+nav{
+    height: 115px;
+}
+nav a {
+    font-size: 25px;
+    padding: 15px;
+}
+.title{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.pictures{
+    text-align: center;
+}
+.picture{
+    padding: 10PX;
+}
+.info{
+    margin: 30px 190px 10px 190px;
+    padding: 25px;
+    background-color: rgb(247, 245, 245);
+    border-radius: 25px;
+}
+body{
+    background-image: url(photos/houses.jpg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 1.5em;
+    background: #fff;
+    cursor: pointer;
+    min-width: 38px;
+    font-size: 1em;
+  }
+  .content {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+    -webkit-transition: opacity 500ms ease, -webkit-filter 500ms ease;
+    transition: opacity 500ms ease, -webkit-filter 500ms ease;
+    transition: filter 500ms ease, opacity 500ms ease;
+    transition: filter 500ms ease, opacity 500ms ease, -webkit-filter 500ms ease;
+  }

@@ -1,5 +1,6 @@
 nav{
     height: 115px;
+    
 }
 nav a {
     font-size: 25px;
@@ -8,6 +9,7 @@ nav a {
 .title{
     text-align: center;
     padding: 10px;
+    padding-top: 120px;
     font-size: 50px;
     color: rgb(27, 45, 145);
 }
@@ -20,6 +22,7 @@ nav a {
 .header{
     font-size: 40px;
     padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
 }
 
@@ -28,7 +31,9 @@ nav a {
     padding-top: 15px;
     text-align: center;
 }
-
+.heading{
+   color:  rgb(249, 206, 76);
+}
 p{
     padding: 5px;
 }
@@ -36,3 +41,8 @@ p{
     margin: 75px;
     margin-top: 0px;
 }
+.container1{
+    text-align: center;
+    padding-bottom: 35px;
+}
+
