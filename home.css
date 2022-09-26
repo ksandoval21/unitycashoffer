@@ -40,8 +40,8 @@ nav a {
 }
 
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px)  { 
+  and (min-device-width: 0px) 
+  and (max-device-width: 600px)  { 
 
     .quote{ 
       font-size: 10px;
@@ -50,7 +50,5 @@ nav a {
       width: 65px;
       height: 65px;
     }
-    nav-link{
-      height: 300px;
-    }
+    
 }
