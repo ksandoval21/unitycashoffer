@@ -14,10 +14,11 @@ nav a {
     color: rgb(27, 45, 145);
 }
 .images{
-    margin: 85px;;
+    margin: 40px;;
 }
 .container {
     text-align: center;
+    width: 100%;
 }
 .header{
     font-size: 40px;
@@ -45,4 +46,6 @@ p{
     text-align: center;
     padding-bottom: 35px;
 }
-
+.phone-icon{
+    width: 150px;
+}
