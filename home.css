@@ -53,6 +53,10 @@ nav a {
     body{
       background-image: url(photos/home-phone.jpg);
       width: 100%;
+      background-color: rgba(2,22,10,255);
     }
+    nav{
+      height: 120px;
+  }
     
 }
