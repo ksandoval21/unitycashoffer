@@ -22,7 +22,7 @@ nav a {
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #321fe0;
+  background-color: #2e57be;
 }
  
   
@@ -64,7 +64,7 @@ nav a {
     padding-left: 10px;
   }
   .link-text{
-    color: rgb(249, 246, 246);
+    color: rgb(6, 6, 6);
     font-weight: bold;
     }
   .home-button{
@@ -73,5 +73,8 @@ nav a {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #6d9bf6;
+  }
+  .drop-down{
+    background-color: whitesmoke;
   }
 }
