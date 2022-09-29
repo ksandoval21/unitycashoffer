@@ -38,6 +38,11 @@ body{
     font-size: 60px;;
     padding: 20px;
 }
+.gmail{
+    padding: 20px;
+    width: 100px;
+}
+
 .email-text{
     font-size: 30px;
     padding-top: 35px;
@@ -116,5 +121,8 @@ body{
 .icon-container{
     margin-left: 0px;
 
+}
+.gmail{
+    width: 80px;
 }
   }
