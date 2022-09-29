@@ -49,3 +49,52 @@ p{
 .phone-icon{
     width: 150px;
 }
+@media only screen 
+  and (min-device-width: 0px) 
+  and (max-device-width: 600px)  { 
+
+    .image{
+      width: 120px;
+      height: 120px;
+    }
+    nav{
+      height: 120px;
+  }
+  .nav-links{
+    padding-left: 10px;
+  }
+  .link-text{
+    color: rgb(6, 6, 6);
+    font-weight: bold;
+    }
+  .drop-down{
+    background-color: whitesmoke;
+  }
+  .images{
+    margin: 10px;
+    width: 60px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.title{
+    font-size: 35px;
+    padding-top: 50px;
+}
+.header{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.header2{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.map{
+    width: 330px;
+    height: 200px;
+}
+.headers{
+    margin: 15px;
+}
+}
