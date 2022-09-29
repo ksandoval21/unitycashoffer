@@ -44,7 +44,7 @@ nav a {
   and (max-device-width: 600px)  { 
 
     .quote{ 
-      font-size: 10px;
+      font-size: 30px;
     }
     .image{
       width: 65px;
@@ -52,6 +52,7 @@ nav a {
     }
     body{
       background-image: url(photos/home-phone.jpg);
+      width: 100%;
     }
     
 }
