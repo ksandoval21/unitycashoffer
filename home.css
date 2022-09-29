@@ -44,11 +44,11 @@ nav a {
   and (max-device-width: 600px)  { 
 
     .quote{ 
-      font-size: 30px;
+      font-size: 40px;
     }
     .image{
-      width: 65px;
-      height: 65px;
+      width: 120px;
+      height: 120px;
     }
     body{
       background-image: url(photos/home-phone.jpg);
