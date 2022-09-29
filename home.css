@@ -22,7 +22,7 @@ nav a {
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #6d9bf6;
+  background-color: #321fe0;
 }
  
   
@@ -36,7 +36,9 @@ nav a {
   text-shadow: 5px 3px 3px rgb(25, 91, 48);
   text-align: center;
   margin: 5px;
-
+}
+.nav-links{
+  padding-left: 650px;
 }
 
 @media only screen 
@@ -58,5 +60,18 @@ nav a {
     nav{
       height: 120px;
   }
-    
+  .nav-links{
+    padding-left: 10px;
+  }
+  .link-text{
+    color: rgb(249, 246, 246);
+    font-weight: bold;
+    }
+  .home-button{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #6d9bf6;
+  }
 }
