@@ -42,7 +42,9 @@ body{
     padding: 20px;
     width: 100px;
 }
-
+.nav-links{
+    margin-left: 1100px;
+}
 .email-text{
     font-size: 30px;
     padding-top: 35px;
@@ -83,11 +85,9 @@ body{
   }
   .nav-links{
     padding-left: 10px;
-  }
-  .link-text{
-    color: rgb(6, 6, 6);
-    font-weight: bold;
-    }
+    margin: 0px;
+}
+  
   .drop-down{
     background-color: whitesmoke;
   }
@@ -98,7 +98,7 @@ body{
   .container{
     background-color: rgba(225, 223, 223, 0.5);
     width: 300px;
-    height: 608px;
+    height: 723px;
     padding-top: 35px;
 }
 body{
@@ -125,4 +125,7 @@ body{
 .gmail{
     width: 80px;
 }
+.nav-links{
+    padding-left: 10px;
+  }
   }

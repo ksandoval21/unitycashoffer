@@ -11,11 +11,11 @@ body{
     background-repeat: no-repeat;
 }
 nav{
-    height: 115px;
+  height: 115px;
 }
 nav a {
-    font-size: 25px;
-    padding: 15px;
+  font-size: 25px;
+  padding: 15px;
 }
 .home-button{
   position: absolute;
@@ -23,7 +23,9 @@ nav a {
   left: 50%;
   transform: translate(-50%, -50%);
 }
- 
+.nav-links{
+  margin-left: 1100px;
+}
   
 .quote{
   font-size: 75px;
@@ -35,9 +37,6 @@ nav a {
   text-shadow: 5px 3px 3px rgb(25, 91, 48);
   text-align: center;
   margin: 5px;
-}
-.nav-links{
-  padding-left: 650px;
 }
 
 @media only screen 
@@ -61,11 +60,9 @@ nav a {
   }
   .nav-links{
     padding-left: 10px;
-  }
-  .link-text{
-    color: rgb(6, 6, 6);
-    font-weight: bold;
-    }
+    margin: 0px;
+}
+  
   .home-button{
     position: absolute;
     top: 85%;

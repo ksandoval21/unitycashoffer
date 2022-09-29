@@ -1,6 +1,5 @@
 nav{
     height: 115px;
-    
 }
 nav a {
     font-size: 25px;
@@ -35,9 +34,12 @@ nav a {
 .heading{
    color:  rgb(249, 206, 76);
 }
-p{
-    padding: 5px;
+.nav-links{
+    margin-left: 1100px;
 }
+/* p{
+    padding: 5px;
+} */
 .steps{
     margin: 75px;
     margin-top: 0px;
@@ -49,9 +51,7 @@ p{
 .phone-icon{
     width: 150px;
 }
-.nav-links{
-    padding-left: 600px;
-  }
+
 @media only screen 
   and (min-device-width: 0px) 
   and (max-device-width: 600px)  { 
@@ -65,11 +65,9 @@ p{
   }
   .nav-links{
     padding-left: 10px;
-  }
-  .link-text{
-    color: rgb(6, 6, 6);
-    font-weight: bold;
-    }
+    margin: 0px;
+}
+
   .drop-down{
     background-color: whitesmoke;
   }

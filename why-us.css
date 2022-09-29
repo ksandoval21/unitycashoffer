@@ -17,6 +17,9 @@ nav a {
 .picture{
     padding: 10PX;
 }
+.nav-links{
+  margin-left: 1100px;
+}
 .info{
     margin: 30px 190px 10px 190px;
     padding: 25px;
@@ -61,11 +64,9 @@ button {
   }
   .nav-links{
     padding-left: 10px;
-  }
-  .link-text{
-    color: rgb(6, 6, 6);
-    font-weight: bold;
-    }
+    margin: 0px;
+}
+  
   .drop-down{
     background-color: whitesmoke;
   }
@@ -73,6 +74,7 @@ button {
     padding-top: 50px;
     font-size: 40px;
 }
+
 .column{
     padding: 50px;
   }
@@ -91,4 +93,5 @@ button {
     background-size: cover;
     background-size: 100%;
     background-repeat: repeat;
+}
 }
