@@ -48,3 +48,42 @@ button {
     transition: filter 500ms ease, opacity 500ms ease;
     transition: filter 500ms ease, opacity 500ms ease, -webkit-filter 500ms ease;
   }
+  @media only screen 
+  and (min-device-width: 0px) 
+  and (max-device-width: 600px)  { 
+
+    .image{
+      width: 120px;
+      height: 120px;
+    }
+    nav{
+      height: 120px;
+  }
+  .nav-links{
+    padding-left: 10px;
+  }
+  .link-text{
+    color: rgb(6, 6, 6);
+    font-weight: bold;
+    }
+  .drop-down{
+    background-color: whitesmoke;
+  }
+  .title{
+    padding-top: 50px;
+    font-size: 40px;
+}
+.column{
+    padding: 50px;
+  }
+  .info{
+    margin: 50px 50px 0px 50px;
+  }
+  .picture{
+    width:230px;
+    height:200px;
+  }
+  .header{
+    font-size: 20px;
+  }
+}

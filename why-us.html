@@ -6,41 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/459f06329c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="why-us.css">
     <title>Why Us</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a href="index.html"><img src="photos/logo.PNG" alt="Logo" width="220" height="220" class="image"></a>
-
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-  <ul class="navbar-nav ">
-    <li class="nav-item">
-      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="aboutus.html">About us </a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="team.html">Meet the team</a>
-    </li>
-    <li class="nav-item active">
-        <a class="nav-link" href="why-us.html">Why us? </a>
-      </li>
-  </ul>
-</div>
-</nav>
+    <button class="navbar-toggler" id="button"type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse nav-links drop-down" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"> <p class="link-text">Home</p> <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html"> <p class="link-text">About us</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="team.html"> <p class="link-text">Meet the Team</p></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="why-us.html"> <p class="link-text">Why us?</p></a>
+        </li>
+        <li class="nav-item dropdown">
+        </li>
+      </ul>
+    </div>
+  </nav>
 <!-- <h1 class="title">Why Us?</h1> -->
 <div class="info">
-<h3>Should I List My House With An Agent Or Sell It To A Cash Buyer? </h3>
+<h3 class="header">Should I List My House With An Agent Or Sell It To A Cash Buyer? </h3>
 <p>A lot of people tend to think that listing with an agent is always the right choice.
    This is just not true. There are times when listing with an agent is the right thing to do,
     and times when it's not, or not even a possibility. We are here to point you in the right direction.
      If listing with an agent is the right solution for you, we'll tell you! </p>
-<h4>You should list with an agent if:</h4>
+<h4 class="header">You should list with an agent if:</h4>
 <ul>
   <li>You don't mind waiting the 2 to 6+ months your house will be on the market</li>
   <li>You're able to pay the 2 to 6+ months of holding costs (taxes, lawn maintenance, utilities, insurance, etc)</li>
