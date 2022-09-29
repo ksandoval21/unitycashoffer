@@ -65,3 +65,41 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media only screen 
+  and (min-device-width: 0px) 
+  and (max-device-width: 600px)  { 
+
+    .image{
+      width: 120px;
+      height: 120px;
+    }
+    nav{
+      height: 120px;
+  }
+  .nav-links{
+    padding-left: 10px;
+  }
+  .link-text{
+    color: rgb(6, 6, 6);
+    font-weight: bold;
+    }
+  .drop-down{
+    background-color: whitesmoke;
+  }
+  .title{
+    padding-top: 50px;
+    font-size: 40px;
+}
+  .container{
+    background-color: rgba(225, 223, 223, 0.5);
+    width: 200px;
+    height: 608px;
+    padding-top: 120px;
+}
+body{
+    background-image: url(photos/houses.jpg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: repeat;
+}
+  }
