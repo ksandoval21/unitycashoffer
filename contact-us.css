@@ -88,18 +88,33 @@ body{
   }
   .title{
     padding-top: 50px;
-    font-size: 40px;
+    font-size: 30px;
 }
   .container{
     background-color: rgba(225, 223, 223, 0.5);
-    width: 200px;
+    width: 300px;
     height: 608px;
-    padding-top: 120px;
+    padding-top: 35px;
 }
 body{
     background-image: url(photos/houses.jpg);
     background-size: cover;
     background-size: 100%;
     background-repeat: repeat;
+}
+.back-button{
+    margin: 0px;
+}
+.icon{
+    font-size: 40px;;
+    padding: 20px;
+}
+.email-text{
+    font-size: 17px;
+    padding-top: 25px;
+}
+.icon-container{
+    margin-left: 0px;
+
 }
   }
