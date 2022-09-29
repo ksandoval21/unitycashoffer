@@ -97,10 +97,10 @@ body{
     padding-top: 35px;
 }
 body{
-    background-image: url(photos/houses.jpg);
+    background-image: url(photos/phone-pic.jpg);
     background-size: cover;
     background-size: 100%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 .back-button{
     margin: 0px;
