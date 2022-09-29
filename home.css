@@ -50,5 +50,8 @@ nav a {
       width: 65px;
       height: 65px;
     }
+    body{
+      background-image: url(photos/home-phone.jpg);
+    }
     
 }
