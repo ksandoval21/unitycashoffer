@@ -38,6 +38,7 @@
       </ul>
     </div>
   </nav>
+  <div id="space"></div>
     <h1 class="title">Unity Cash Offer </h1>
     <div class="headers">
     <h2 class="header">We’re here to help you sell your house, no matter what</h2>
@@ -115,3 +116,18 @@
   </div>
 </footer>
 </html>
+
+<script>
+  let showText = true
+  var dropdown = document.getElementById("button");
+  
+  dropdown.onclick = function(event) {
+    if (showText){
+      document.getElementById('space').style.padding = "320px 0px 0px 0px";
+      showText = false
+    }else {
+      document.getElementById('space').style.padding = "0px 0px 0px 0px";      
+      showText = true
+    }
+  }
+  </script>
