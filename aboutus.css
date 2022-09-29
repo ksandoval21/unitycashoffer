@@ -49,6 +49,9 @@ p{
 .phone-icon{
     width: 150px;
 }
+.nav-links{
+    padding-left: 600px;
+  }
 @media only screen 
   and (min-device-width: 0px) 
   and (max-device-width: 600px)  { 
