@@ -43,13 +43,10 @@
 </html>
 
 <script>
-  let showText 
-  function myFunction() {
-    
-    document.getElementById("button").classList.toggle("click");
-  }
+  let showText = true
+  var dropdown = document.getElementById("button");
   
-  window.onclick = function(event) {
+  dropdown.onclick = function(event) {
     if (showText){
       document.getElementById('quote').innerHTML=' ';
       showText = false
