@@ -31,7 +31,7 @@ body{
     background-color: rgba(225, 223, 223, 0.5);
     width: 1000px;
     height: 858px;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 .icon{
     color: white;
@@ -48,7 +48,7 @@ body{
 .email-text{
     font-size: 30px;
     padding-top: 35px;
-    color: #000000;
+    color: #ffffff;
 }
 .icon-container{
     display: flex;
