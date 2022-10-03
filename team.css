@@ -16,9 +16,7 @@ nav a {
 .container1{
     display: flex;
 }
-.nav-links{
-  margin-left: 50%;
-}
+
 .column{
     padding: 30px 200px 30px 200px;
     display: flex;
