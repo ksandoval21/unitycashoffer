@@ -13,7 +13,7 @@
     <title>About Us</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
     <a href="index.html"><img src="photos/logo.PNG" alt="Logo" width="220" height="220" class="image"></a>
     <button class="navbar-toggler" id="button"type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -77,33 +77,33 @@
   <!-- Grid container -->
   <div class="container pt-4">
     <!-- Section: Social media -->
-    <section class="mb-4">
+    <!-- <section class="mb-4"> -->
       <!-- Facebook -->
-      <a
+      <!-- <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"
         href="#!"
         role="button"
         data-mdb-ripple-color="dark"
         ><i class="fab fa-facebook-f"></i
-      ></a>
+      ></a> -->
 
       <!-- Twitter -->
-      <a
+      <!-- <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"
         href="#!"
         role="button"
         data-mdb-ripple-color="dark"
         ><i class="fab fa-twitter"></i
-      ></a>
+      ></a> -->
       <!-- Instagram -->
-      <a
+      <!-- <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"
         href="#!"
         role="button"
         data-mdb-ripple-color="dark"
         ><i class="fab fa-instagram"></i
       ></a>
-    </section>
+    </section> -->
     <!-- Section: Social media -->
   </div>
   <!-- Grid container -->
@@ -130,4 +130,21 @@
       showText = true
     }
   }
+  // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
   </script>

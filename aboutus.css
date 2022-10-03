@@ -49,6 +49,11 @@ nav a {
 .phone-icon{
     width: 150px;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
 @media only screen 
   and (min-device-width: 0px) 
